@@ -1,0 +1,21 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main-div > div{
+    width: 30%;
+}
+
+#main-div p{
+    opacity: 0.9;
+}
+
+#main-div > div > div{
+    border-radius: 20px;
+    overflow: hidden;
+}
